@@ -72,9 +72,15 @@ Because of inheritance, Dummy1 has the same functionality as PhotoShareActivity.
 
 3. Evolve then changes the intent to start the appropriate Dummy class.
 
-Evolve also uses a custom classloader and a DexClassLoader to load code from the new APK. It uses reflection to update the classloaders for the main thread and to create an AssetManager to handle resources. There are lots of intricacies dealing with Contexts, Resources, and ClassLoaders so check out the code on GitHub!
+Evolve also uses a custom classloader and a DexClassLoader to load code from the new APK. It uses reflection to update the classloaders for the main thread and to create an AssetManager to handle resources. There are lots of intricacies dealing with Contexts, Resources, and ClassLoaders so check out the code!
 
 **Important: Evolve is in Alpha. This means that it probably won't work without some debugging. Please find issues and submit pull requests!**
+
+### Dependencies and Building Evolve
+
+Evolve depends on [Javassist-Android](https://github.com/crimsonwoods/javassist-android). 
+
+There are also Evolve binaries available on the [release page](https://github.com/VivekPanyam/Evolve/releases)
 
 ### License
 
