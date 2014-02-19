@@ -43,9 +43,9 @@ They then include Evolve in their actual app and change `Activity` to `DynamicAc
 		protected void onCreate(Bundle savedInstanceState) {
     		super.onCreate(savedInstanceState);
         	Evolve.setValues(
-                "http://example.com/app.apk?androidVersion=" +
+                "https://example.com/app.apk?androidVersion=" +
                         Build.VERSION.RELEASE,
-                "http://example.com/updatecheck?androidVersion=" +
+                "https://example.com/updatecheck?androidVersion=" +
                         Build.VERSION.RELEASE);
 
         	//Runs asynchronously
