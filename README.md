@@ -88,7 +88,7 @@ According to the Google Play Developer Program Policies (http://play.google.com/
 
 This means that Evolve **CANNOT** be used in apps on Google Play.
 
-Evolve is targeted towards apps not on Google Play and Beta tests. Some of its intended use cases are enterprise apps (fix security holes without bugging all your employees) and beta tests (push updates to beta testers instead of waiting for them to download it).
+Evolve is targeted towards apps not on Google Play and Beta tests. Some of its intended use cases are enterprise apps (fix security holes without bugging all your employees), beta tests (push updates to beta testers instead of waiting for them to download it), and nightly build releases.
 
 ### License
 
