@@ -82,6 +82,14 @@ Evolve depends on [Javassist-Android](https://github.com/crimsonwoods/javassist-
 
 There are also Evolve binaries available on the [release page](https://github.com/VivekPanyam/Evolve/releases)
 
+### IMPORTANT
+
+According to the Google Play Developer Program Policies (http://play.google.com/about/developer-content-policy.html), "An app downloaded from Google Play may not modify, replace or update its own APK binary code using any method other than Google Play's update mechanism."
+
+This means that Evolve **CANNOT** be used in apps on Google Play.
+
+Evolve is targeted towards apps not on Google Play and Beta tests. Some of its intended use cases are enterprise apps (fix security holes without bugging all your employees) and beta tests (push updates to beta testers instead of waiting for them to download it).
+
 ### License
 
 See the LICENSE file for more info
