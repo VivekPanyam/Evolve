@@ -93,3 +93,5 @@ Evolve is targeted towards apps not on Google Play and Beta tests. Some of its i
 ### License
 
 See the LICENSE file for more info
+
+If you are interested in using Evolve under a license other than AGPL (which uses strong [copyleft](http://en.wikipedia.org/wiki/Copyleft)), please contact me at evolve@vivekpanyam.com
