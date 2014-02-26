@@ -78,7 +78,7 @@ Evolve also uses a custom classloader and a DexClassLoader to load code from the
 
 ### Dependencies and Building Evolve
 
-Evolve depends on [Javassist-Android](https://github.com/crimsonwoods/javassist-android). 
+Evolve depends on [Javassist-Android](https://github.com/crimsonwoods/javassist-android). Before building, modify DexFile.java and add the line `cf_options.strictNameCheck = false;` before [this line](https://github.com/crimsonwoods/javassist-android/blob/master/javassist-android/src/javassist/android/DexFile.java#L23). If you are getting a `ParseException`, you probably forgot to make this change.
 
 There are also Evolve binaries available on the [release page](https://github.com/VivekPanyam/Evolve/releases)
 
